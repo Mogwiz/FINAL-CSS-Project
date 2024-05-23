@@ -19,7 +19,7 @@ img {
 }
 
 header {
-    padding: 72px 0px;
+    padding: 48px 0px 72px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,15 @@ ul {
     margin-right: 0;
     font-weight: 400;
     font-size: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    transition: font-weight 0.5s ease;
+}
+
+ul a:hover {
+    font-weight: bold;
 }
 
 .lim {
@@ -81,9 +90,14 @@ button {
     text-transform: uppercase;
     color: rgba(255, 253, 250, 1);
     letter-spacing: 4px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 24px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: rgba(68, 82, 214, 1);
 }
 
 .col2 > img {
@@ -152,7 +166,7 @@ section img {
 .ngrid {
     display: grid;
     grid-template-columns: 100px 226px;
-    gap: 24px
+    gap: 24px;
 }
 
 .ngrid h1 {
